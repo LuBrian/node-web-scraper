@@ -1,0 +1,23 @@
+{
+  "name": "node-web-scraper",
+  "version": "1.0.0",
+  "description": "Create a command line program that can parse remote pages, read the html, and write the content that we care about to a file on disk\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-web-scraper"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "brian",
+  "license": "mit",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "csv": "^0.4.6",
+    "request": "^2.61.0"
+  }
+}
